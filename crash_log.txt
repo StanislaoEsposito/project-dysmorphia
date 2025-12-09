@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Stanislao\Desktop\dysmorphia_project\main.py", line 1851, in <module>
+    curses.wrapper(main)
+  File "C:\Users\Stanislao\AppData\Local\Programs\Python\Python312\Lib\curses\__init__.py", line 94, in wrapper
+    return func(stdscr, *args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stanislao\Desktop\dysmorphia_project\main.py", line 1797, in main
+    game.draw()
+    ^^^^^^^^^
+AttributeError: 'Game' object has no attribute 'draw'

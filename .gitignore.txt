@@ -1,0 +1,12 @@
+# File generati dal gioco
+dysmorphia_save.dat
+crash_log.txt
+
+# Cache di Python
+__pycache__/
+*.py[cod]
+
+# Ambienti virtuali (se ne usi)
+.venv
+venv/
+env/
